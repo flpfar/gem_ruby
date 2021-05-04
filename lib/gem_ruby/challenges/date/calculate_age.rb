@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 def calculate_age(birth_date, current_date)
-  birth_day, birth_month, birth_year = birth_date.split('/').map(&:to_i)
-  current_day, current_month, current_year = current_date.split('/').map(&:to_i)
+  birth_day, birth_month, birth_year = birth_date.split("/").map(&:to_i)
+  current_day, current_month, current_year = current_date.split("/").map(&:to_i)
   days_in_months = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 
   if birth_day > current_day

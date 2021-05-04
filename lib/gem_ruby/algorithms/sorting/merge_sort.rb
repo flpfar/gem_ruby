@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def merge_sort(array)
   return array if array.length <= 1
 
@@ -10,11 +12,11 @@ end
 def merge(array1, array2)
   sorted = []
   until array1.empty? || array2.empty?
-    if array1.first <= array2.first
-      sorted << array1.shift
-    else
-      sorted << array2.shift
-    end
+    sorted << if array1.first <= array2.first
+                array1.shift
+              else
+                array2.shift
+              end
   end
   sorted.concat(array1).concat(array2)
 end

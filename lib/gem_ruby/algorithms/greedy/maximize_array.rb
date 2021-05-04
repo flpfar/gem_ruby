@@ -1,7 +1,9 @@
-def maximize_array(array, k)
-  k.times do
+# frozen_string_literal: true
+
+def maximize_array(array, times_to_invert)
+  times_to_invert.times do
     min, min_index = array.each_with_index.min
-    break if min == 0
+    break if min.zero?
 
     array[min_index] = -array[min_index]
   end

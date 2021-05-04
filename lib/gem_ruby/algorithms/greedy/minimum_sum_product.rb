@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def minimum_sum(arr1, arr2, changes)
   diff = 0
   result = 0

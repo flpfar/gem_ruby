@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Given an array, right rotate it by k elements.
 
 def reversal(array, rotation)

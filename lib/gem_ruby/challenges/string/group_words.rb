@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def group_words(words)
   words_hash = {}
   result = []
@@ -7,7 +9,7 @@ def group_words(words)
 
     word.each_char { |char| letters_hash[char] = true }
 
-    word_letters = letters_hash.keys.sort.join('')
+    word_letters = letters_hash.keys.sort.join("")
 
     words_hash[word_letters] = [] unless words_hash[word_letters]
     words_hash[word_letters] << word

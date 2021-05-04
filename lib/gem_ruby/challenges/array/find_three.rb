@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Given an array with all distinct elements, find the largest three elements.
 
 def find_three(array)

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def positive_and_negative(array)
   pos_index = 0
   neg_index = 1
@@ -6,11 +8,9 @@ def positive_and_negative(array)
     pos_index += 2 while pos_index < array.size && array[pos_index] >= 0
     neg_index += 2 while neg_index < array.size && array[neg_index].negative?
 
-    if pos_index < array.size && neg_index < array.size
-      array[pos_index], array[neg_index] = array[neg_index], array[pos_index]
-    else
-      break
-    end
+    break unless pos_index < array.size && neg_index < array.size
+
+    array[pos_index], array[neg_index] = array[neg_index], array[pos_index]
   end
 
   array

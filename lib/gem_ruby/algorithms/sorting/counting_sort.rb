@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def counting_sort(array)
   counting_array = create_counting_array(array)
 

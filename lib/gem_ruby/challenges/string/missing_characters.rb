@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Pangram checking
 
 def missing_characters(string)
@@ -5,7 +7,7 @@ def missing_characters(string)
   alph_array = Array.new(26, false)
 
   string.each_byte do |char|
-    alph_array[char - 'a'.ord] = true if char != ' '.ord
+    alph_array[char - "a".ord] = true if char != " ".ord
   end
 
   alph_array.all?(true)

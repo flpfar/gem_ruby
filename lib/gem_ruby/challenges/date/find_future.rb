@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def find_future(dates, queries)
   sorted_dates = dates.sort { |a, b| compare_dates(a, b) }
   result = []
@@ -13,8 +15,8 @@ def find_future(dates, queries)
 end
 
 def compare_dates(date1, date2)
-  day1, month1, year1 = date1.split('/').map(&:to_i)
-  day2, month2, year2 = date2.split('/').map(&:to_i)
+  day1, month1, year1 = date1.split("/").map(&:to_i)
+  day2, month2, year2 = date2.split("/").map(&:to_i)
 
   return year1 <=> year2 if (year1 <=> year2) != 0
 

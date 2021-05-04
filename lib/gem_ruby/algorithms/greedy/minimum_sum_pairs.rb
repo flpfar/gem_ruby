@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def minimum_sum(array)
   min_value = array.min
 

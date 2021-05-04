@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def reorder_index(array, indexes)
   result = Array.new(array.size)
 

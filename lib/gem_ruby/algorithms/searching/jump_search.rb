@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def jump_search(elements, element_to_find)
   elements_length = elements.length
   step = Math.sqrt(elements_length)

@@ -1,4 +1,6 @@
-# Given a string, write a program to count the occurrence of Lowercase characters, Uppercase characters, 
+# frozen_string_literal: true
+
+# Given a string, write a program to count the occurrence of Lowercase characters, Uppercase characters,
 # Special characters, and Numeric values.
 
 ASCII_RANGES = {
