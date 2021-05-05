@@ -10,6 +10,8 @@ require_relative "gem_ruby/algorithms/sorting/bubble_sort.rb"
 require_relative "gem_ruby/algorithms/sorting/counting_sort.rb"
 require_relative "gem_ruby/algorithms/sorting/merge_sort.rb"
 
+require_relative "gem_ruby/algorithms/greedy/maximize_array.rb"
+
 require_relative "gem_ruby/challenges/string/missing_characters.rb"
 require_relative "gem_ruby/challenges/string/count.rb"
 
