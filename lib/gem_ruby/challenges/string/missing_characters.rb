@@ -1,19 +1,15 @@
 # frozen_string_literal: true
 
-# Pangram checking
+module Challenges
+  module String
+    def self.missing_characters(string)
+      alph_array = Array.new(26, false)
 
-def missing_characters(string)
-  string.downcase!
-  alph_array = Array.new(26, false)
+      string.downcase.each_byte do |char|
+        alph_array[char - "a".ord] = true if char != " ".ord
+      end
 
-  string.each_byte do |char|
-    alph_array[char - "a".ord] = true if char != " ".ord
+      alph_array.all?(true)
+    end
   end
-
-  alph_array.all?(true)
 end
-
-# Test cases
-
-# puts missing_characters('The quick brown fox jumps over the lazy dog') # true
-# puts missing_characters('The quick brown fox jumps over the dog') # false
