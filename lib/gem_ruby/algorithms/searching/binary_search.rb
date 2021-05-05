@@ -25,9 +25,3 @@ module Algorithms
     end
   end
 end
-
-# puts binary_search([10, 20, 30, 50, 60, 80, 100, 110, 130, 170], 110) # Output: 7
-# puts binary_search([10, 20, 30, 50, 60, 80, 100, 110, 130, 170], 175) # Output: -1
-# puts binary_search([10, 20, 30, 50, 60, 80, 100, 110, 130, 170], 170) # Output: 9
-# puts binary_search([10, 20, 30, 50, 60, 80, 100, 110, 130, 170], 10) # Output: 0
-# puts binary_search([10, 20, 30, 50, 60, 80, 100, 110, 130, 170], 90) # Output: -1
