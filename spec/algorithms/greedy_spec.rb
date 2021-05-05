@@ -11,4 +11,9 @@ RSpec.describe Algorithms::Greedy do
     it { expect(Algorithms::Greedy.minimum_product([-1, 0])).to eq(-1) }
     it { expect(Algorithms::Greedy.minimum_product([0, 0, 0])).to eq 0 }
   end
+
+  describe ".minimum_sum_product" do
+    it { expect(Algorithms::Greedy.minimum_sum_product([1, 2, -3], [-2, 3, -5], 5)).to eq(-31) }
+    it { expect(Algorithms::Greedy.minimum_sum_product([2, 3, 4, 5, 4], [3, 4, 2, 3, 2], 3)).to eq 25 }
+  end
 end
