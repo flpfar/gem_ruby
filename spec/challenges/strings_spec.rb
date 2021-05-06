@@ -20,4 +20,12 @@ RSpec.describe Challenges::Strings do
                                                               "Special characters: 2")
     }
   end
+
+  describe ".common_characters" do
+    it { expect(Challenges::Strings.common_characters("apple", "orange")).to eq %w[a e] }
+    it {
+      expect(Challenges::Strings.common_characters("geeksforgeeks", "gemkstones", "acknowledges", "aguelikes"))
+        .to eq %w[e g k s]
+    }
+  end
 end
