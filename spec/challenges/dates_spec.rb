@@ -15,4 +15,9 @@ RSpec.describe Challenges::Dates do
       expect(Challenges::Dates.find_future(dates, queries)).to eq [-1]
     end
   end
+
+  describe ".sum_minute" do
+    it { expect(Challenges::Dates.sum_minute("12:43", 21)).to eq "13:04" }
+    it { expect(Challenges::Dates.sum_minute("20:39", 534)).to eq "05:33" }
+  end
 end
