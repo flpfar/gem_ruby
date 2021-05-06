@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Challenges
-  module String
+  module Strings
     ASCII_RANGES = {
       upper: 65..90,
       lower: 97..122,

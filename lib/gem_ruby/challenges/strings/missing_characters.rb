@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Challenges
-  module String
+  module Strings
     def self.missing_characters(string)
       alph_array = Array.new(26, false)
 
