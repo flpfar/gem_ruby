@@ -17,6 +17,7 @@ require_relative "gem_ruby/challenges/arrays/find_three.rb"
 require_relative "gem_ruby/challenges/arrays/reversal.rb"
 
 require_relative "gem_ruby/challenges/dates/find_future.rb"
+require_relative "gem_ruby/challenges/dates/sum_minute.rb"
 
 module GemRuby
   class Error < StandardError; end
