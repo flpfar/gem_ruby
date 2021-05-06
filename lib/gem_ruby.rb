@@ -17,6 +17,7 @@ require_relative "gem_ruby/algorithms/greedy/minimum_sum_product.rb"
 require_relative "gem_ruby/challenges/strings/missing_characters.rb"
 require_relative "gem_ruby/challenges/strings/count.rb"
 require_relative "gem_ruby/challenges/strings/common_characters.rb"
+require_relative "gem_ruby/challenges/strings/group_words.rb"
 
 require_relative "gem_ruby/challenges/arrays/find_three.rb"
 require_relative "gem_ruby/challenges/arrays/reversal.rb"
