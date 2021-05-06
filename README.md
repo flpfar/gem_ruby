@@ -36,19 +36,19 @@ This project is part of a mentorship program from [Desenvolvendo Me](https://www
 ## Challenges
 
 * String
-  * Missing characters ([Description](https://www.geeksforgeeks.org/pangram-checking/) | [Code](/lib/gem_ruby/challenges/string/missing_characters.rb))
-  * Count ([Description](https://www.geeksforgeeks.org/count-uppercase-lowercase-special-character-numeric-values/) | [Code](/lib/gem_ruby/challenges/string/count.rb))
-  * [Extra] Common Characters ([Description](https://www.geeksforgeeks.org/common-characters-n-strings/) | [Code](/lib/gem_ruby/challenges/string/common_characters.rb))
-  * [Extra] Group Words ([Description](https://www.geeksforgeeks.org/print-words-together-set-characters/) | [Code](/lib/gem_ruby/challenges/string/group_words.rb))
+  * Missing characters ([Description](https://www.geeksforgeeks.org/pangram-checking/) | [Code](/lib/gem_ruby/challenges/strings/missing_characters.rb))
+  * Count ([Description](https://www.geeksforgeeks.org/count-uppercase-lowercase-special-character-numeric-values/) | [Code](/lib/gem_ruby/challenges/strings/count.rb))
+  * [Extra] Common Characters ([Description](https://www.geeksforgeeks.org/common-characters-n-strings/) | [Code](/lib/gem_ruby/challenges/strings/common_characters.rb))
+  * [Extra] Group Words ([Description](https://www.geeksforgeeks.org/print-words-together-set-characters/) | [Code](/lib/gem_ruby/challenges/strings/group_words.rb))
 * Array
-  * Find Three ([Description](https://www.geeksforgeeks.org/find-the-largest-three-elements-in-an-array/) | [Code](/lib/gem_ruby/challenges/array/find_three.rb))
-  * Reversal ([Description](https://www.geeksforgeeks.org/reversal-algorithm-right-rotation-array/) | [Code](/lib/gem_ruby/challenges/array/reversal.rb))
-  * [Extra] Reorder Index ([Description](https://www.geeksforgeeks.org/reorder-a-array-according-to-given-indexes/) | [Code](/lib/gem_ruby/challenges/array/reorder_index.rb))
-  * [Extra] Positive and Negative ([Description](https://www.geeksforgeeks.org/positive-elements-at-even-and-negative-at-odd-positions-relative-order-not-maintained/) | [Code](/lib/gem_ruby/challenges/array/positive_negative.rb))
+  * Find Three ([Description](https://www.geeksforgeeks.org/find-the-largest-three-elements-in-an-array/) | [Code](/lib/gem_ruby/challenges/arrays/find_three.rb))
+  * Reversal ([Description](https://www.geeksforgeeks.org/reversal-algorithm-right-rotation-array/) | [Code](/lib/gem_ruby/challenges/arrays/reversal.rb))
+  * [Extra] Reorder Index ([Description](https://www.geeksforgeeks.org/reorder-a-array-according-to-given-indexes/) | [Code](/lib/gem_ruby/challenges/arrays/reorder_index.rb))
+  * [Extra] Positive and Negative ([Description](https://www.geeksforgeeks.org/positive-elements-at-even-and-negative-at-odd-positions-relative-order-not-maintained/) | [Code](/lib/gem_ruby/challenges/arrays/positive_negative.rb))
 * Date
-  * Find Future ([Description](https://www.geeksforgeeks.org/queries-to-find-the-future-closest-date/) | [Code](/lib/gem_ruby/challenges/date/find_future.rb))
-  * Sum Minute ([Description](https://www.geeksforgeeks.org/program-to-find-the-time-after-k-minutes-from-given-time/) | [Code](/lib/gem_ruby/challenges/date/sum_minute.rb))
-  * [Extra] Calculate Age ([Description](https://www.geeksforgeeks.org/program-calculate-age/) | [Code](/lib/gem_ruby/challenges/date/calculate_age.rb))
+  * Find Future ([Description](https://www.geeksforgeeks.org/queries-to-find-the-future-closest-date/) | [Code](/lib/gem_ruby/challenges/dates/find_future.rb))
+  * Sum Minute ([Description](https://www.geeksforgeeks.org/program-to-find-the-time-after-k-minutes-from-given-time/) | [Code](/lib/gem_ruby/challenges/dates/sum_minute.rb))
+  * [Extra] Calculate Age ([Description](https://www.geeksforgeeks.org/program-calculate-age/) | [Code](/lib/gem_ruby/challenges/dates/calculate_age.rb))
 
 ## Installation
 
