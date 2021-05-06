@@ -28,4 +28,26 @@ RSpec.describe Challenges::Strings do
         .to eq %w[e g k s]
     }
   end
+
+  describe ".group_words" do
+    it do
+      words = %w[may student students dog
+                 studentssess god cat act
+                 tab bat flow wolf lambs
+                 amy yam balms looped
+                 poodle]
+
+      result = [
+        %w[may amy yam],
+        %w[student students studentssess],
+        %w[dog god],
+        %w[cat act],
+        %w[tab bat],
+        %w[flow wolf],
+        %w[lambs balms],
+        %w[looped poodle]
+      ]
+      expect(Challenges::Strings.group_words(words)).to eq result
+    end
+  end
 end
