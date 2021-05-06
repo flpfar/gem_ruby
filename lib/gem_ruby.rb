@@ -16,6 +16,8 @@ require_relative "gem_ruby/challenges/string/count.rb"
 require_relative "gem_ruby/challenges/arrays/find_three.rb"
 require_relative "gem_ruby/challenges/arrays/reversal.rb"
 
+require_relative "gem_ruby/challenges/dates/find_future.rb"
+
 module GemRuby
   class Error < StandardError; end
   # Your code goes here...
