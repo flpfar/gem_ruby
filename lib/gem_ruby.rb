@@ -13,6 +13,9 @@ require_relative "gem_ruby/algorithms/sorting/merge_sort.rb"
 require_relative "gem_ruby/challenges/string/missing_characters.rb"
 require_relative "gem_ruby/challenges/string/count.rb"
 
+require_relative "gem_ruby/challenges/arrays/find_three.rb"
+require_relative "gem_ruby/challenges/arrays/reversal.rb"
+
 module GemRuby
   class Error < StandardError; end
   # Your code goes here...
