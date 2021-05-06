@@ -21,6 +21,8 @@ require_relative "gem_ruby/challenges/strings/group_words.rb"
 
 require_relative "gem_ruby/challenges/arrays/find_three.rb"
 require_relative "gem_ruby/challenges/arrays/reversal.rb"
+require_relative "gem_ruby/challenges/arrays/reorder_index.rb"
+require_relative "gem_ruby/challenges/arrays/positive_negative.rb"
 
 require_relative "gem_ruby/challenges/dates/find_future.rb"
 require_relative "gem_ruby/challenges/dates/sum_minute.rb"
