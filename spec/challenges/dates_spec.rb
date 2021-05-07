@@ -20,4 +20,9 @@ RSpec.describe Challenges::Dates do
     it { expect(Challenges::Dates.sum_minute("12:43", 21)).to eq "13:04" }
     it { expect(Challenges::Dates.sum_minute("20:39", 534)).to eq "05:33" }
   end
+
+  describe ".calculate_age" do
+    it { expect(Challenges::Dates.calculate_age("07/09/1996", "07/12/2017")).to eq({ years: 21, months: 3, days: 0 }) }
+    it { expect(Challenges::Dates.calculate_age("16/12/2009", "07/12/2017")).to eq({ years: 7, months: 11, days: 22 }) }
+  end
 end
