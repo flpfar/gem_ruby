@@ -26,6 +26,7 @@ require_relative "gem_ruby/challenges/arrays/positive_negative.rb"
 
 require_relative "gem_ruby/challenges/dates/find_future.rb"
 require_relative "gem_ruby/challenges/dates/sum_minute.rb"
+require_relative "gem_ruby/challenges/dates/calculate_age.rb"
 
 module GemRuby
   class Error < StandardError; end
