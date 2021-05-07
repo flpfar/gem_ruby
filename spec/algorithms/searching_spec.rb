@@ -26,4 +26,11 @@ RSpec.describe Algorithms::Searching do
     it { expect(Algorithms::Searching.jump_search([10, 20, 30, 50, 60, 80, 100, 110, 130, 170], 10)).to eq 0 }
     it { expect(Algorithms::Searching.jump_search([10, 20, 30, 50, 60, 80, 100, 110, 130, 170], 90)).to eq(-1) }
   end
+
+  describe ".find_missing_number" do
+    it { expect(Algorithms::Searching.find_missing_number([1, 2, 4, 6, 3, 7, 8])).to eq 5 }
+    it { expect(Algorithms::Searching.find_missing_number([1, 2, 3, 5])).to eq 4 }
+    it { expect(Algorithms::Searching.find_missing_number([3, 2, 4, 6, 1, 5, 9, 8])).to eq 7 }
+    it { expect(Algorithms::Searching.find_missing_number([9, 8, 7, 5, 4, 3, 2, 1])).to eq 6 }
+  end
 end
