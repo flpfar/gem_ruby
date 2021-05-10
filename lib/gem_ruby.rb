@@ -15,6 +15,7 @@ require_relative "gem_ruby/algorithms/sorting/selection_sort.rb"
 require_relative "gem_ruby/algorithms/greedy/maximize_array.rb"
 require_relative "gem_ruby/algorithms/greedy/minimum_product.rb"
 require_relative "gem_ruby/algorithms/greedy/minimum_sum_product.rb"
+require_relative "gem_ruby/algorithms/greedy/minimum_sum_pairs.rb"
 
 require_relative "gem_ruby/challenges/strings/missing_characters.rb"
 require_relative "gem_ruby/challenges/strings/count.rb"
