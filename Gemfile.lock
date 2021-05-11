@@ -7,6 +7,9 @@ GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.2)
+    debase (0.2.4.1)
+      debase-ruby_core_source (>= 0.10.2)
+    debase-ruby_core_source (0.10.12)
     diff-lcs (1.4.4)
     parallel (1.20.1)
     parser (3.0.1.1)
@@ -39,6 +42,8 @@ GEM
       unicode-display_width (>= 1.4.0, < 2.0)
     rubocop-ast (1.5.0)
       parser (>= 3.0.1.1)
+    ruby-debug-ide (0.7.2)
+      rake (>= 0.8.1)
     ruby-progressbar (1.11.0)
     unicode-display_width (1.7.0)
 
@@ -47,10 +52,12 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  debase
   gem_ruby!
   rake (~> 13.0)
   rspec (~> 3.0)
   rubocop (~> 0.80)
+  ruby-debug-ide
 
 BUNDLED WITH
    2.2.4
