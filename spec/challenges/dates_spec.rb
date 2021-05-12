@@ -25,4 +25,11 @@ RSpec.describe Challenges::Dates do
     it { expect(Challenges::Dates.calculate_age("07/09/1996", "07/12/2017")).to eq({ years: 21, months: 3, days: 0 }) }
     it { expect(Challenges::Dates.calculate_age("16/12/2009", "07/12/2017")).to eq({ years: 7, months: 11, days: 22 }) }
   end
+
+  describe ".day_week" do
+    it { expect(Challenges::Dates.day_week("13/07/2017")).to eq "Thursday" }
+    it { expect(Challenges::Dates.day_week("15/08/2012")).to eq "Wednesday" }
+    it { expect(Challenges::Dates.day_week("24/12/2456")).to eq "Sunday" }
+    it { expect(Challenges::Dates.day_week("12/05/2021")).to eq "Wednesday" }
+  end
 end
